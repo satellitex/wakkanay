@@ -16,7 +16,11 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "outDir": "./dist",
-    "rootDir": "./src"
+    "rootDir": "./src",
+    "baseUrl": "./src",
+    "paths": {
+      "types": ["./types"]
+    }
   },
   "exclude": ["node_modules", "dist"],
   "include": ["src"]
