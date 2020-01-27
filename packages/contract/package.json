@@ -1,6 +1,6 @@
 {
   "name": "@cryptoeconomicslab/contract",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "contract",
   "author": {
     "name": "Cryptoeconomics Lab",
@@ -28,7 +28,7 @@
     "lint": "eslint --ext ts,tsx src",
     "doc": "typedoc --out docs src",
     "clean": "rm -rf lib docs",
-    "prepublish": "tsc --build"
+    "prepublish": "npm run build"
   },
   "jest": {
     "transform": {
@@ -49,14 +49,14 @@
     }
   },
   "dependencies": {
-    "@cryptoeconomicslab/coder": "^0.0.8",
-    "@cryptoeconomicslab/db": "^0.0.8",
-    "@cryptoeconomicslab/ovm": "^0.0.8"
+    "@cryptoeconomicslab/coder": "^0.0.9",
+    "@cryptoeconomicslab/db": "^0.0.9",
+    "@cryptoeconomicslab/ovm": "^0.0.9"
   },
-  "gitHead": "3da28b833795e0c0f47d0c3142496edc537c311e",
+  "gitHead": "4fa17adb78eb327c05d5af035a391566738f427b",
   "devDependencies": {
     "@cryptoeconomicslab/level-kvs": "^0.0.4",
-    "@cryptoeconomicslab/primitives": "^0.0.8"
+    "@cryptoeconomicslab/primitives": "^0.0.9"
   },
   "peerDependencies": {
     "@cryptoeconomicslab/primitives": "^0.0.5"
