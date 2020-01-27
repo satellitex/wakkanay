@@ -27,7 +27,8 @@
     "test": "jest --passWithNoTests",
     "lint": "eslint --ext ts,tsx src",
     "doc": "typedoc --out docs src",
-    "clean": "rm -rf lib docs"
+    "clean": "rm -rf lib docs",
+    "prepublish": "tsc --build"
   },
   "jest": {
     "transform": {
