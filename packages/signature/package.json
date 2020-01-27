@@ -1,6 +1,6 @@
 {
   "name": "@cryptoeconomicslab/signature",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "signatures and verifiers",
   "author": {
     "name": "Cryptoeconomics Lab",
@@ -54,7 +54,7 @@
     "libsodium-wrappers-sumo": "^0.7.6"
   },
   "devDependencies": {
-    "@cryptoeconomicslab/primitives": "^0.0.9",
+    "@cryptoeconomicslab/primitives": "^0.0.10",
     "@types/libsodium-wrappers-sumo": "^0.7.3"
   },
   "peerDependencies": {
