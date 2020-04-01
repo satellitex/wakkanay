@@ -33,7 +33,6 @@
     "@cryptoeconomicslab/contract": "^0.0.40",
     "@cryptoeconomicslab/db": "^0.0.40",
     "@cryptoeconomicslab/hash": "^0.0.40",
-    "@cryptoeconomicslab/indexeddb-kvs": "^0.0.3",
     "@cryptoeconomicslab/merkle-tree": "^0.0.40",
     "@cryptoeconomicslab/ovm": "^0.0.40",
     "@cryptoeconomicslab/plasma": "^0.0.40",
@@ -44,6 +43,7 @@
   },
   "gitHead": "3da28b833795e0c0f47d0c3142496edc537c311e",
   "devDependencies": {
+    "@cryptoeconomicslab/indexeddb-kvs": "^0.0.4",
     "@cryptoeconomicslab/context": "^0.0.40",
     "@cryptoeconomicslab/level-kvs": "^0.0.6",
     "@cryptoeconomicslab/primitives": "^0.0.40",
