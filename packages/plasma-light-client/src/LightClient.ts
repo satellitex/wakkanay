@@ -662,7 +662,7 @@ export default class LightClient {
           )
           const id = Keccak256.hash(propertyBytes)
           const propertyDb = await this.getClaimDb()
-          propertyDb.put(id, propertyBytes)
+          await propertyDb.put(id, propertyBytes)
         })
       )
     } else {
